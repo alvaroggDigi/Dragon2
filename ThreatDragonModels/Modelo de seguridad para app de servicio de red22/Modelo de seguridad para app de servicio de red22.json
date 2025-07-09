@@ -740,13 +740,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1127,8 +1120,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
+              "name": "Request",
+              "description": "Solicitud de data a la BD",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1136,11 +1129,11 @@
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "https",
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Request"
             ],
             "id": "2ccad887-c56f-41a3-b717-a17fca1982ac",
             "source": {
@@ -1151,7 +1144,12 @@
               "cell": "9114bba2-662b-4492-adc6-8e3a208df085",
               "port": "b8941589-75a7-433b-9399-a785572e9c85"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 750,
+                "y": 140
+              }
+            ]
           }
         ]
       }
