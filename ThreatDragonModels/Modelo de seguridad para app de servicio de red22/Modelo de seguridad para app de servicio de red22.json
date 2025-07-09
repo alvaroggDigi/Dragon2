@@ -1201,6 +1201,108 @@
                 "y": 170
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "Solicitud a la pasarella de pagos",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "https",
+              "threats": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "8d414a60-d430-4313-bcc3-d4856bd5659a",
+            "source": {
+              "cell": "1a6b5a5a-520c-4694-89f5-21829b6b1e6a",
+              "port": "01f889a3-7bb2-47b6-ae3a-e22ed08f161f"
+            },
+            "target": {
+              "cell": "8a3747ad-a9d7-489a-ac94-7ab5e82537f7",
+              "port": "37fbf7bf-b92a-4eb8-b04b-6dcc5a6c1203"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "Respuesta de la solicitd de pagos de pasarela",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "https",
+              "threats": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "d5e0776e-4c4e-40d3-8e74-e7d54fe0f791",
+            "source": {
+              "cell": "8a3747ad-a9d7-489a-ac94-7ab5e82537f7",
+              "port": "6aca97d7-a79b-488e-a894-8189412fbc60"
+            },
+            "target": {
+              "cell": "1a6b5a5a-520c-4694-89f5-21829b6b1e6a",
+              "port": "b1f92a2b-2466-407e-94d2-898e1db37fb4"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 260
+              }
+            ]
           }
         ]
       }
